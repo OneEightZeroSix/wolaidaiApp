@@ -1,0 +1,168 @@
+.section_phjr {
+  font-size: 0;
+}
+.section_phjr .main-box {
+  padding-top: .4rem;
+  padding-bottom: 1rem;
+}
+.section_phjr .main-box .item {
+  width: 3.28rem;
+  height: 2.07rem;
+  background-size: 3.28rem 2.07rem;
+  margin: .08rem;
+  display: inline-block;
+  position: relative;
+}
+.section_phjr .main-box .item .item_tit {
+  position: absolute;
+  font-size: .24rem;
+  color: #fff;
+  padding-left: .22rem;
+  background-image: url("https://m.wolaidai.com/msite/assets/img/sec_01_01.png");
+  background-size: .18rem .21rem;
+  background-repeat: no-repeat;
+  background-position: left .13rem;
+  height: .44rem;
+  line-height: .44rem;
+  text-align: left;
+  left: .22rem;
+  bottom: .04rem;
+}
+.section_phjr .main-box .item.item1 {
+  background-image: url("https://m.wolaidai.com/msite/assets/img/sec_1_01.jpg");
+}
+.section_phjr .main-box .item.item2 {
+  background-image: url("https://m.wolaidai.com/msite/assets/img/sec_1_02.jpg");
+}
+.section_phjr .main-box .item.item3 {
+  background-image: url("https://m.wolaidai.com/msite/assets/img/sec_1_03.jpg");
+}
+.section_phjr .main-box .item.item4 {
+  background-image: url("https://m.wolaidai.com/msite/assets/img/sec_1_04.jpg");
+}
+.counts-section {
+  color: #fff;
+  height: 3.85rem;
+  width: 7.50rem;
+  background: #19284d url('https://m.wolaidai.com/msite/assets/img/sec_2_bg.jpg') center center no-repeat;
+  background-size: 7.5rem 3.85rem;
+  position: relative;
+  padding-top: .53rem;
+  padding-left: .34rem;
+  text-align: left;
+}
+.counts-section h1 {
+  font-size: .36rem;
+  line-height: .6rem;
+  padding-left: .3rem;
+  background-image: url("https://m.wolaidai.com/msite/assets/img/sec_02_01.png");
+  background-size: .22rem .38rem;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.counts-section p {
+  color: #90a8d7;
+  font-size: .24rem;
+  line-height: .5rem;
+}
+.counts-section .counts {
+  font-size: 0;
+  margin-top: .45rem;
+}
+.counts-section .counts .item {
+  width: 3.3rem;
+  height: 1.3rem;
+  padding: .1rem 0;
+  background-color: #fff;
+  margin-right: .23rem;
+  float: left;
+  padding-top: .4rem;
+}
+.counts-section .counts .item .count-number {
+  color: #ed7333;
+  font-size: .32rem;
+  height: .33rem;
+  line-height: .33rem;
+  padding-left: .24rem;
+}
+.counts-section .counts .item .count-number img {
+  width: .17rem;
+  vertical-align: baseline;
+}
+.counts-section .counts .item #register {
+  letter-spacing: .02rem;
+}
+.counts-section .counts .item .remark {
+  display: block;
+  color: #999;
+  font-size: .2rem;
+  line-height: .25rem;
+  padding-left: .45rem;
+  margin-top: .05rem;
+}
+.section5 {
+  background-color: #f8f9fb;
+  padding-bottom: .8rem;
+}
+.section5 .img {
+  margin: 0 auto;
+  margin-top: .6rem;
+  background-image: url("https://m.wolaidai.com/msite/assets/img/sec_05_bg1.png");
+  width: 5.95rem;
+  height: 3.75rem;
+  background-size: 5.95rem 7.49rem;
+  transition: all 0.5s ease-in-out;
+}
+.section5 .img.active {
+  height: 7.49rem;
+}
+.section5 .more_btn {
+  display: inline-block;
+  font-size: .24rem;
+  line-height: .34rem;
+  height: .34rem;
+  color: #2a4a60;
+  margin-top: .2rem;
+}
+.section5 .more_btn.active .more_btn_icon {
+  transform: rotate(180deg);
+}
+.section5 .more_btn .more_btn_icon {
+  display: inline-block;
+  width: .23rem;
+  height: .34rem;
+  background-image: url("https://m.wolaidai.com/msite/assets/img/sec_05_01.png");
+  background-size: .16rem .09rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: bottom;
+  transition: all 0.5s ease-in-out;
+}
+.fadeInRight1 {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: .4s;
+  animation-duration: .4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.transform1{animation-delay: 0s;}
+.transform2{animation-delay: 0.05s;}
+.transform3{animation-delay: 0.1s;}
+.transform4{animation-delay: 0.15s;}
+.transform5{animation-delay: 0.2s;}
+.transform6{animation-delay: 0.25s;}
+.transform7{animation-delay: 0.3s;}
+.transform8{animation-delay: 0.35s;}
+.transform9{animation-delay: 0.4s;}
+
+.ant-carousel .slick-slide {
+   position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.ant-carousel .slick-slide h3 {
+ 
+}

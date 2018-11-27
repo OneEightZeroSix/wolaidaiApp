@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script type="text/javascript">
+
+    var data=[
+           {"min_installment":1028.13,"max_installment":1099.91,"defaults":true,"selectable":true,"tenor":"3M","installment":1103.26
+           },{"min_installment":524.78,"max_installment":589.48,"selectable":true,"tenor":"6M","installment":592.55
+           },{"min_installment":357.10,"max_installment":420.51,"selectable":true,"tenor":"9M","installment":423.56
+           },{"min_installment":273.33,"max_installment":336.89,"selectable":true,"tenor":"12M","installment":339.99
+         }]
+    function isBigEnough(element) {
+        return element.tenor=="6M"    
+    }
+    
+    var filtered = data.filter(isBigEnough);
+    
+    console.log(filtered);
+    </script>
+</body>
+
+</html>

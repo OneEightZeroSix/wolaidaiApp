@@ -1,0 +1,114 @@
+*{ padding:0;margin:0;}
+input:focus{outline:none;}
+body {
+    font-size: 1.2rem;
+    font-family: Helvetica, Arial, sans-serif, 宋体;
+    background-color:#ffffff;
+}
+a{ text-decoration: none;}
+input{ border:none;}
+.btn { display: block; width:90%; margin:0.5rem auto;}
+.container {
+    background:#fff;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    width: 84%;
+    margin-left: 8%;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color: #eaeaea;
+    font-size:0.3rem;
+} 
+.sb{
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.c-card{
+    background:#fff;
+    position:relative;
+    line-height:1.2rem;
+    padding:0;
+    -webkit-box-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+.c-card input{
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.48rem;
+    vertical-align: middle;
+    color: #000000;
+}
+.c-card label{
+    font-size:0.32rem;
+    color: #999999;
+    display: block;
+}
+.assets-error{
+    position: absolute;
+    right:5%;;
+    bottom:15%;
+    display: none;
+    width: 0.35rem;
+    height: 0.35rem;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAABGdBTUEAALGPC/xhBQAABXRJREFUaAXdm81rlEccx91H87LWDSkhCZgXaJsIYg+FIj0EvUYPQSxCqP+A0EJv9dJre9GTQkrzDyiF0iI5VK/KXhTBgwdJooe8NCQhNCTRTbJ00+/36cww++wzm+eZeWazmweWeXlmfr/fZ96fmdncCQ/P+vr62VKpdDmXy30J8SMHBwejcHsQPgM3j18JcTtwNxA3B3ce4Zf5fP5pb2/v3whn+uSykraysnKhXC7fhNE3YPA5W7nIP4v8vyP/w+Hh4de2cvR8TpAwJlheXv4a7m38LuqCs/AD+AV+dwYGBv6AW7GVaQ0JuGuVSuUu4NgUvT4AnAuC4AfAPrJRlBpydXX10/39/V8AN26j0CUPYJ+0t7d/29/f/y6NnFSQCwsL30DRNAALaZRkmRb6t6H/Fvrrw6RyE0FC6MnFxcUpCL2VVHAD0k0PDQ19B+h/D9N1KCTg8oD8DYImDhN2BO9nADkJ2FI93XUhBeATCLhUT8gRv3sG0PF6oIHJQDZRUYPNDEjzL9FO2mtiMUKKPtiMTTSOZULYG/fuRGxz5SiK1A9iczR35M24UbcGUsyDr1D9RzZN2JYjpxfMo19E59Ga5oqJfqoVAVkwtJsLlWghVUFyqYaEV6KJWikM+8fJodusIPEy4FpUf9mqfrGmVmzKI74mvC+2G1FwqLBR8khdChIvbstIGxed/gN+723yRvMIWR+i8WnCOk8IiSnjc0Rafw/SqLa2tk8KhcIQDCmmMSYmbRFyBinPpdDIQy7KlzXJedHlOejs7Cx3d3f/A5cDly1okfmFnLKLQSJvyBVCosRuuAhEqX20tbU1g72dQl9f344laAjI/JRDeZTrYpfkyolNp2UXYVreIjajrmIzanttbe3M7u7uY7wb096bvFWA2AT7K2E+kzwVD3sGAu6qqRh3zxgNTFmjCpAFkyUgccgXoEq5bZjlUwXKmoVwUx+tAkxR84ntJV+Adj+aOEfyhAqUTdfQR8OmzT6YsmkntwIpyceBZyRVruSJFWjMYKT6Lpu2jxrUzBwhZI8WkbW3BhTN574+OGXdB2MAenL42OTuF7fvfT6q5qQSn01U6qCLQt1hTZ7WIz35x9Akf9Jl7+3t/YxwkulFz2bjzxPSaY2YUGuxo6PjRz2tCJtGXT2pq7/E0ZWnSz6fqmkC3eMem2rMYOTFBvKxJje8SP9faBUgR1Eo/Z5uA0E3uBiY8wRZAwg9sg+yjzYElHysyXkPkEkm+kaBzrNPvswYUk0XCaYJ76DkCzAxP80QMg2gVOsVlHwBz+jRbmelRgfXBlCqC0FTfr3IvEaXXORjn+Qilmf01g+Eve/q6pqw+I7UdVYtASmPcvUEaf2SK4RE5sQHmiZFGC3bNjc3P+aoiTRyFDUlN8WHoJSDNe0pU6Kk8dgnCo861DEBJunnIHfZzApLHTKctiwIIGvQRRZkPMdx3leUJ2uSgu8wwvahQS5G6XqzkAUetVGuahKCg6WlpTdwfXxE6wze/QCcHRwcPA83vBaj12SF10i8W9AABeSQgFSnalLqRt/k+rLh11ekflcXcI/RF7mvpB5VkzIG53u8UbEtw63k0m7aH7W5BhIHmG9Rk810lSVqszFMu6MHsExcA8lIcSQ9TX8LPb/GHaXT/po+KaFQKifRP/9EuBUuR8ygH15Hc429uBRbkyE9MiDTJPzPJHiTurzHM2kCpM1GSL7kBSBk5kg7w3ATPryRVfeiEm02NlcdSDTdKcQ104CU3d06HfZY35LUQXHP5zNxDabhCwY0Tf/3XXVYXiM5tjeXdVD01eN9B12HpV9cQuDN5uP1b4IoqAyLI/rwfyGobX668Xgw9n8hiJ9Hwcwhnbf/hfwHtnUinKdvKJAAAAAASUVORK5CYII=') no-repeat;
+    background-size:cover;
+}
+.validation-error {
+    line-height: .3rem;
+    position: absolute;
+    color: #E40000;
+    display: none;
+    font-size: 0.26rem;
+    margin-top: 0.08rem;
+}
+
+.flex{
+    display: -webkit-box;
+    display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.main-header{ display: none;}
+.tips.credit{
+  color: #444444;
+  font-size: 0.3rem;
+  text-align:center;
+  margin: 0.3rem auto;
+}
+.tips.credit .credit_num{color:#FF862E}
+.credit_footer {
+  position: fixed;
+  bottom:5%;
+  clear:both;
+  font-size: .3rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  color:#999;
+  line-height:1.5;
+}
+.credit_footer a{color:#1675D7}
+.btn.btn-wld{
+  color: #fff;
+  background-color: #FF5A10;
+  border: 1px solid #FF5A10;
+  border-radius:6px;
+  box-shadow: 0 7px 14px 0;
+  font-size: 0.36rem;
+  margin-top: 1.2rem;
+  width: 80%;
+}
+
+/*.credit_app .amount_input{}*/
+.credit_app .form-item-amount{
+        padding-left:0;margin-left:-1rem;text-align:center;
+}
+.credit_app .form-item-amount label{ margin-left:-0.4rem}
+.credit_app .form-item label{color: #666666;}
+.credit_app .form-icon-item .form-icon{line-height:1rem;}
+.credit_app .form-item{border:none;}

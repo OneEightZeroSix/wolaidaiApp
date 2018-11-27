@@ -1,0 +1,228 @@
+@charset "utf-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+a:link { text-decoration: none;}
+　　 a:active { text-decoration:blink}
+　　 a:hover { text-decoration:underline;}
+　　 a:visited { text-decoration: none;}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+html {
+    font-family: "微软雅黑", "宋体", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html, body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    background-color: #f1f1f1;
+    min-height: 100%;
+    width: 100%;
+    color: #565656;
+}
+
+body {
+    overflow-y: auto;
+    background: #f4f4f4;
+}
+
+@media (min-width: 175px) {
+    html {
+        font-size:23.3333px
+    }
+}
+
+@media (min-width: 203.75px) {
+    html {
+        font-size:27.1666px
+    }
+}
+
+@media (min-width: 232.5px) {
+    html {
+        font-size:31px
+    }
+}
+
+@media (min-width: 261.25px) {
+    html {
+        font-size:34.8333px
+    }
+}
+
+@media (min-width: 290px) {
+    html {
+        font-size:38.6666px
+    }
+}
+
+@media (min-width: 318.75px) {
+    html {
+        font-size:42.5px
+    }
+}
+
+@media (min-width: 320px) {
+    html {
+        font-size:42.6666px
+    }
+}
+
+@media (min-width: 347.5px) {
+    html {
+        font-size:46.3333px
+    }
+}
+
+@media (min-width: 360px) {
+    html {
+        font-size:48px
+    }
+}
+
+@media (min-width: 375px) {
+    html {
+        font-size:50px
+    }
+}
+
+@media (min-width: 376.25px) {
+    html {
+        font-size:50.1666px
+    }
+}
+
+@media (min-width: 405px) {
+    html {
+        font-size:54px
+    }
+}
+
+@media (min-width: 411px) {
+    html {
+        font-size:54.8px
+    }
+}
+
+@media (min-width: 414px) {
+    html {
+        font-size:55.2px
+    }
+}
+
+@media (min-width: 433.75px) {
+    html {
+        font-size:57.8333px
+    }
+}
+
+@media (min-width: 462.5px) {
+    html {
+        font-size:61.6666px
+    }
+}
+
+@media (min-width: 491.25px) {
+    html {
+        font-size:65.5px
+    }
+}
+
+@media (min-width: 520px) {
+    html {
+        font-size:69.3333px
+    }
+}
+
+@media (min-width: 548.75px) {
+    html {
+        font-size:73.1667px
+    }
+}
+
+@media (min-width: 577.5px) {
+    html {
+        font-size:77px
+    }
+}
+
+@media (min-width: 606.25px) {
+    html {
+        font-size:80.8333px
+    }
+}
+
+@media (min-width: 635px) {
+    html {
+        font-size:84.6667px
+    }
+}
+
+@media (min-width: 663.75px) {
+    html {
+        font-size:88.5px
+    }
+}
+
+@media (min-width: 692.5px) {
+    html {
+        font-size:92.3333px
+    }
+}
+
+@media (min-width: 721.25px) {
+    html {
+        font-size:96.1667px
+    }
+}
+
+@media (min-width: 750px) {
+    html {
+        font-size:100px
+    }
+}

@@ -1,0 +1,208 @@
+ .m-page {
+      background-image: url("../../assert/img/bg-dejdd1.jpg");
+      background-size: 20.5rem 31.06rem;
+      background-position: top center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      background-color: #F1631B;
+      position: relative;
+    }
+
+    .hidden {
+      display: block;
+    }
+
+    .m-bottom {
+      height: 1.3rem;
+      width: 7.5rem;
+      /*background-image: url(img/footer.png);*/
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    .m-box-apply {
+      margin-top: 19.5rem;
+      text-align: center;
+    }
+
+    .m-box-word {
+      background-image:url("../../assert/img/box1.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 1.88rem;
+      margin: 0 0.75rem;
+      margin-top: 0.2rem;
+      text-align: center;
+      padding-top: 0.4rem;
+    }
+
+    .m-box-word2 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+              justify-content: space-around;
+     background-image: url("../../assert/img/box1.png");
+      background-repeat: no-repeat;
+      background-size: 90%;
+      height: 5.3rem;
+      margin: 0 0.75rem 0.3rem 2.75rem;
+      padding: 0.7rem 0;
+      box-sizing: border-box;
+      padding-bottom: 1.2rem;
+      text-align: center;
+    }
+
+    .m-box-word p {
+      color: #fff;
+      height: 0.4rem;
+      font-size: 0.24rem;
+    }
+
+    .m-box-word2 p {
+      color: #fff;
+      height: 0.4rem;
+      font-size: 0.26rem;
+    }
+
+    .m-form-login {
+      margin: 0 0.35rem;
+    }
+
+    .m-form-row {
+      height: 3rem;
+      padding: 0.12rem   0.5rem;
+      border-bottom: 1px solid #fff;
+    }
+
+    .m-form-row.no-b {
+      border-bottom: none;
+    }
+
+    .m-form-row input {
+      width: 9.2rem;
+      height: 100%;
+      font-size: 1rem;
+      outline: none;
+      border: none;
+      background: transparent;
+    }
+
+    .input-font {
+      color: #fff;
+    }
+
+    .m-flex {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    .m-icon {
+      margin-right: 1.3rem;
+      height: 1rem;
+      width: 0.8rem;
+    }
+
+    .btn-send-code {
+      width: 6rem;
+      border-radius: 30px;
+      height: 1.5rem;
+      line-height: 0.5rem;
+      background: #fed8de;
+      font-size: 0.28rem;
+      color: #fc496f;
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    .btn-login {
+      background-image: url("../../assert/img/button.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      width: 100%;
+      height: 3.1rem;
+      background-color: transparent;
+      border: none;
+      margin-top: 1.4rem;
+      color: #c0051c;
+      font-size: 1.5rem;
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      letter-spacing: 3px;
+      line-height: 3.1rem;
+    }
+
+    .btn-apply {
+      letter-spacing: 3px;
+      /*background-image: url(img/button.png);*/
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 1.1rem;
+      background-color: transparent;
+      border: none;
+      margin-top: 0.4rem;
+      color: #c0051c;
+      font-size: 0.5rem;
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+      color: #fff;
+    }
+
+    input:-moz-placeholder, textarea:-moz-placeholder {
+      color: #fff;
+    }
+
+    input::-moz-placeholder, textarea::-moz-placeholder {
+      color: #fff;
+    }
+
+    input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+      color: #fff;
+    }
+
+    .m-msg-main {
+      position: relative;
+      width: 6rem;
+      background: #f41484;
+      padding: 0.5rem;
+      margin: 0.68rem;
+    }
+
+    .m-close {
+      position: absolute;
+      width: .5rem;
+      height: .5rem;
+      border-radius: 100%;
+      background-color: #ccc;
+      float: right;
+      right: 0.1rem;
+      top: 0.1rem;
+    }
+
+    .m-msg-title {
+      color: #ffe971;
+      text-align: center;
+      font-size: 0.32rem;
+      margin-bottom: 0.4rem;
+    }

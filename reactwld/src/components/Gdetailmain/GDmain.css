@@ -1,0 +1,22 @@
+.slider-slide>img {
+	width: 100%;
+	display: block;
+}
+.slider-decc{
+	position: absolute; bottom: 0px; width: 100%; text-align: center;
+}
+.slider-debb{
+	display: inline-block; width: 100%; height: auto;
+}
+.slider-debb img{
+	width: 100%; vertical-align: top;
+}
+.slider-listt{
+	transform: translate3d(0px, 0px, 0px); position: relative; display: block; margin: 0px; padding: 0px; height: 375px; width: 375px; cursor: inherit; box-sizing: border-box;
+}
+.slider-framee{
+	position: relative; display: block; overflow: hidden; height: auto; margin: 0px; padding: 0px; transform: translate3d(0px, 0px, 0px); box-sizing: border-box;
+}
+.am-carousell{
+	position: relative; display: block; width: 100%; height: auto; box-sizing: border-box; visibility: visible; touch-action: manipulation;
+}
